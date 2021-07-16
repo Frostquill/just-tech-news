@@ -3,6 +3,7 @@ const { Post, User, Vote, Comment } = require('../../models');
 const sequelize = require('../../config/connection');
 const { update } = require('../../models/User');
 
+
 // get all users
 router.get('/', (req, res) => {
     console.log('=======================');
